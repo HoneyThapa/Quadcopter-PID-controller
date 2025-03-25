@@ -10,7 +10,7 @@ v3.
 
 Have reconfigured the way the graphs are created so that I now get a plot of velocity, displacement, angular velocity and angular displacement when I run the simulator.
 
-When using PD control, small steady state errors are visible in the angular displacements. These generate a steady state error in the lienar velocity as the thrust vector is not perfectly vertical. This causes very large errors in displacement that grow linearly over time. Setting the simulation time to t=90s demonstrates this. 
+When using PD control, small steady state errors are visible in the angular displacements. These generate a steady state error in the linear velocity as the thrust vector is not perfectly vertical. This causes very large errors in displacement that grow linearly over time. Setting the simulation time to t=90s demonstrates this. 
 
 An integral gain parameter should be introduced to eliminate the error.
 
