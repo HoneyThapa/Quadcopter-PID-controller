@@ -9,7 +9,7 @@ function a = acceleration(inputs,angles,velocities,m,g,k,kd)
 % therefore a = [0 0 -g].' + 1/m*(R*[0 0 k*sum(angular accelerations^2)] +
 % kd*v)
 
-%The angular velocities are the inputs, thrust (T is in F_B) is a function 
+%The squared angular velocities are the inputs, thrust (T is in F_B) is a function 
 %of angular velocity and k. 
 
     gravity = [0 0 -g].';
